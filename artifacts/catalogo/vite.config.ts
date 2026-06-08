@@ -25,6 +25,11 @@ if (!basePath) {
 }
 
 export default defineConfig({
+  resolve: {
+    alias: {
+      "@": path.resolve(import.meta.dirname, "src"),
+    },
+  },
   base: basePath,
   plugins: [
     runtimeErrorOverlay(),
