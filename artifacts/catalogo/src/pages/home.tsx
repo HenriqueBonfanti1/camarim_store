@@ -10,7 +10,6 @@ type Product = {
   code: string;
   image: string;
   images: string[];
-  whatsapp: string;
   promo: boolean;
 };
 
@@ -70,9 +69,9 @@ export default function Home() {
   const buildWaLink = (p: Product) => {
     const msg = config.whatsappMessage
       .replace("{nome}", p.name)
-      .replace("{descricao}", p.description)
+      .replace("{categoria}", p.category)
       .replace("{imagem}", p.image);
-    return `https://wa.me/${p.whatsapp}?text=${encodeURIComponent(msg)}`;
+    return `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(msg)}`;
   };
 
   return (
@@ -172,7 +171,11 @@ export default function Home() {
           ) : (
             <div className="products-grid">
               {filtered.map((p) => (
-                <article key={p.id} className="product-card" onClick={() => setOpenProduct(p)}>
+                <article
+                  key={p.id}
+                  className="product-card"
+                  onClick={() => window.open(buildWaLink(p), "_blank")}
+                >
                   <div className="card-image-wrap">
                     <img src={p.image} alt={p.name} loading="lazy" />
                     <span className={`card-badge ${p.promo ? "promo" : ""}`}>

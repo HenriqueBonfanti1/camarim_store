@@ -2,8 +2,8 @@
   "config": {
     "storeName": "CAMARIM STORE",
     "storeTagline": "Beleza, cuidados e experiências que iluminam o seu dia",
-    "whatsapp": "5511999999999",
-    "whatsappMessage": "Olá, tenho interesse neste produto.\n\nProduto: {nome}\nDescrição: {descricao}\nImagem: {imagem}\n\nPoderia me fornecer mais informações?"
+    "whatsapp": "5548966999358",
+    "whatsappMessage": "gostaria de saber mais sobre o produto\n\nPrévia: {imagem}\nProduto: {nome}\nCategoria: {categoria}"
   },
   "categories": [
     {
@@ -36,7 +36,6 @@
       "code": "PER-001",
       "image": "/products/perfumes/body%20splash.PNG",
       "images": ["/products/perfumes/body%20splash.PNG"],
-      "whatsapp": "5511999999999",
       "promo": false
     },
     {
@@ -47,7 +46,6 @@
       "code": "PER-002",
       "image": "/products/perfumes/egeo%20blue.PNG",
       "images": ["/products/perfumes/egeo%20blue.PNG"],
-      "whatsapp": "5511999999999",
       "promo": false
     },
     {
@@ -58,7 +56,6 @@
       "code": "PER-003",
       "image": "/products/perfumes/lattafa%20fakhar%20black.jpg",
       "images": ["/products/perfumes/lattafa%20fakhar%20black.jpg"],
-      "whatsapp": "5511999999999",
       "promo": true
     },
     {
@@ -69,7 +66,6 @@
       "code": "PER-004",
       "image": "/products/perfumes/lattafa%20musamam.PNG",
       "images": ["/products/perfumes/lattafa%20musamam.PNG"],
-      "whatsapp": "5511999999999",
       "promo": false
     },
     {
@@ -80,7 +76,6 @@
       "code": "PER-005",
       "image": "/products/perfumes/perfume%20dublin.PNG",
       "images": ["/products/perfumes/perfume%20dublin.PNG"],
-      "whatsapp": "5511999999999",
       "promo": false
     },
     {
@@ -91,7 +86,6 @@
       "code": "CAM-001",
       "image": "/products/camisas/camisa%20brasil%20amarela.JPG",
       "images": ["/products/camisas/camisa%20brasil%20amarela.JPG"],
-      "whatsapp": "5511999999999",
       "promo": false
     },
     {
@@ -102,7 +96,6 @@
       "code": "CAM-002",
       "image": "/products/camisas/camisa%20brasil%20azul.JPG",
       "images": ["/products/camisas/camisa%20brasil%20azul.JPG"],
-      "whatsapp": "5511999999999",
       "promo": false
     },
     {
@@ -113,7 +106,6 @@
       "code": "CAM-003",
       "image": "/products/camisas/camisa%20brasil%20branca.JPG",
       "images": ["/products/camisas/camisa%20brasil%20branca.JPG"],
-      "whatsapp": "5511999999999",
       "promo": false
     },
     {
@@ -124,7 +116,6 @@
       "code": "CAM-004",
       "image": "/products/camisas/camisa%20brasil%20preta.JPG",
       "images": ["/products/camisas/camisa%20brasil%20preta.JPG"],
-      "whatsapp": "5511999999999",
       "promo": true
     },
     {
@@ -133,9 +124,8 @@
       "description": "Caixa especial com camisas da Seleção Brasileira. Presente perfeito para o torcedor — várias cores em um só pacote com embalagem exclusiva.",
       "category": "Camisas",
       "code": "CAM-005",
-      "image": "/products/camisas/caixa%20com%20camisas%20brasil%20varias%20cores.JPG",
-      "images": ["/products/camisas/caixa%20com%20camisas%20brasil%20varias%20cores.JPG"],
-      "whatsapp": "5511999999999",
+      "image": "/products/camisas/caixa%20com%20camisas%20brasil.JPG",
+      "images": ["/products/camisas/caixa%20com%20camisas%20brasil.JPG"],
       "promo": true
     },
     {
@@ -146,7 +136,6 @@
       "code": "ROU-001",
       "image": "/products/roupas/jaqueta%20cinza.PNG",
       "images": ["/products/roupas/jaqueta%20cinza.PNG"],
-      "whatsapp": "5511999999999",
       "promo": false
     },
     {
@@ -157,7 +146,6 @@
       "code": "ROU-002",
       "image": "/products/roupas/conjunto%20de%2012%20peças.jpg",
       "images": ["/products/roupas/conjunto%20de%2012%20peças.jpg"],
-      "whatsapp": "5511999999999",
       "promo": true
     },
     {
@@ -168,7 +156,6 @@
       "code": "ACE-001",
       "image": "/products/acessorios/acessórios.jpg",
       "images": ["/products/acessorios/acessórios.jpg"],
-      "whatsapp": "5511999999999",
       "promo": false
     },
     {
@@ -179,7 +166,6 @@
       "code": "PRE-001",
       "image": "/products/presentes/presentes.jpg",
       "images": ["/products/presentes/presentes.jpg"],
-      "whatsapp": "5511999999999",
       "promo": true
     }
   ]
