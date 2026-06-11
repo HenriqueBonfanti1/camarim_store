@@ -2,11 +2,8 @@ import { defineConfig } from "vite";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
-// Substitua "camarim-store" pelo nome do seu repositório no GitHub
-const repoName = "camarim-store";
-
 export default defineConfig({
-  base: `/${repoName}/`,
+  base: "/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
@@ -17,7 +14,7 @@ export default defineConfig({
   ],
   root: path.resolve(import.meta.dirname),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
   },
   publicDir: "public",
