@@ -2,13 +2,17 @@
   "config": {
     "storeName": "CAMARIM STORE",
     "storeTagline": "Beleza, cuidados e experiências que iluminam o seu dia",
-    "whatsapp": "5548966999358",
-    "whatsappMessage": "gostaria de saber mais sobre o produto\n\nPrévia: {imagem}\nProduto: {nome}\nCategoria: {categoria}"
+    "whatsapp": "5548996699358",
+    "whatsappMessage": "Olá, tenho interesse no produto {nome}\n\nNome: {nome}\nCategoria: {categoria}\nImagem: {imagem}"
   },
   "categories": [
     {
       "name": "Perfumes",
       "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M9 3 6.5 6h11L15 3H9z'/><rect x='5' y='6' width='14' height='14' rx='2'/><path d='M9 11s1 2 3 2 3-2 3-2'/></svg>"
+    },
+    {
+      "name": "Body Splash",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z'/></svg>"
     },
     {
       "name": "Camisas",
@@ -32,20 +36,10 @@
       "id": 1,
       "name": "Body Splash",
       "description": "Body splash refrescante com fragrância suave e marcante. Ideal para o dia a dia, hidrata levemente a pele e deixa um aroma delicado por horas.",
-      "category": "Perfumes",
-      "code": "PER-001",
-      "image": "/products/perfumes/body%20splash.PNG",
-      "images": ["/products/perfumes/body%20splash.PNG"],
-      "promo": false
-    },
-    {
-      "id": 2,
-      "name": "Egeo Blue",
-      "description": "Egeo Blue em sua versão intensa. Fragrância jovem e marcante com notas refrescantes que transmitem energia e atitude para o seu dia.",
-      "category": "Perfumes",
-      "code": "PER-002",
-      "image": "/products/perfumes/egeo%20blue.PNG",
-      "images": ["/products/perfumes/egeo%20blue.PNG"],
+      "category": "Body Splash",
+      "code": "BOD-001",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/body_splash_exeaqn.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/body_splash_exeaqn.jpg?_s=public-apps"],
       "promo": false
     },
     {
@@ -54,8 +48,8 @@
       "description": "Lattafa Fakhar Black — perfume masculino intenso e sofisticado. Notas amadeiradas e especiarias que garantem presença marcante em qualquer ocasião.",
       "category": "Perfumes",
       "code": "PER-003",
-      "image": "/products/perfumes/lattafa%20fakhar%20black.jpg",
-      "images": ["/products/perfumes/lattafa%20fakhar%20black.jpg"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/lattafa_fakhar_black_qs6qdo.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/lattafa_fakhar_black_qs6qdo.jpg?_s=public-apps"],
       "promo": true
     },
     {
@@ -64,8 +58,8 @@
       "description": "Lattafa Musamam — fragrância unissex com notas orientais envolventes. Sofisticação em cada borrifada, perfeito para todas as estações.",
       "category": "Perfumes",
       "code": "PER-004",
-      "image": "/products/perfumes/lattafa%20musamam.PNG",
-      "images": ["/products/perfumes/lattafa%20musamam.PNG"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114599/lattafa_musamam_xfus1c.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114599/lattafa_musamam_xfus1c.jpg?_s=public-apps"],
       "promo": false
     },
     {
@@ -74,8 +68,8 @@
       "description": "Perfume Dublin — essência marcante com notas frescas e amadeiradas. Um clássico moderno para quem busca um aroma versátil e elegante.",
       "category": "Perfumes",
       "code": "PER-005",
-      "image": "/products/perfumes/perfume%20dublin.PNG",
-      "images": ["/products/perfumes/perfume%20dublin.PNG"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114598/perfume_dublin_sgxbr7.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114598/perfume_dublin_sgxbr7.jpg?_s=public-apps"],
       "promo": false
     },
     {
@@ -84,8 +78,8 @@
       "description": "Camisa da Seleção Brasileira amarela — edição canarinho. Tecido confortável, caimento perfeito e orgulho verde e amarelo em cada detalhe.",
       "category": "Camisas",
       "code": "CAM-001",
-      "image": "/products/camisas/camisa%20brasil%20amarela.JPG",
-      "images": ["/products/camisas/camisa%20brasil%20amarela.JPG"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/camisa_brasil_amarela_lqmqro.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/camisa_brasil_amarela_lqmqro.jpg?_s=public-apps"],
       "promo": false
     },
     {
@@ -94,8 +88,8 @@
       "description": "Camisa da Seleção Brasileira azul — modelo reserva oficial. Conforto, estilo e a tradição do futebol brasileiro no seu guarda-roupa.",
       "category": "Camisas",
       "code": "CAM-002",
-      "image": "/products/camisas/camisa%20brasil%20azul.JPG",
-      "images": ["/products/camisas/camisa%20brasil%20azul.JPG"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_azul_lmmduf.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_azul_lmmduf.jpg?_s=public-apps"],
       "promo": false
     },
     {
@@ -104,8 +98,8 @@
       "description": "Camisa da Seleção Brasileira branca — edição clássica e clean. Perfeita para o dia a dia, mostra seu amor pelo hexa com muito estilo.",
       "category": "Camisas",
       "code": "CAM-003",
-      "image": "/products/camisas/camisa%20brasil%20branca.JPG",
-      "images": ["/products/camisas/camisa%20brasil%20branca.JPG"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_branca_qhy9t1.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_branca_qhy9t1.jpg?_s=public-apps"],
       "promo": false
     },
     {
@@ -114,8 +108,8 @@
       "description": "Camisa da Seleção Brasileira preta — modelo alternativo. Visual moderno e ousado, ideal para compor looks com a vibe do futebol.",
       "category": "Camisas",
       "code": "CAM-004",
-      "image": "/products/camisas/camisa%20brasil%20preta.JPG",
-      "images": ["/products/camisas/camisa%20brasil%20preta.JPG"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_preta_wv4h24.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_preta_wv4h24.jpg?_s=public-apps"],
       "promo": true
     },
     {
@@ -124,8 +118,8 @@
       "description": "Caixa especial com camisas da Seleção Brasileira. Presente perfeito para o torcedor — várias cores em um só pacote com embalagem exclusiva.",
       "category": "Camisas",
       "code": "CAM-005",
-      "image": "/products/camisas/caixa%20com%20camisas%20brasil.JPG",
-      "images": ["/products/camisas/caixa%20com%20camisas%20brasil.JPG"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/caixa_com_camisas_brasil_ylqtwe.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/caixa_com_camisas_brasil_ylqtwe.jpg?_s=public-apps"],
       "promo": true
     },
     {
@@ -134,8 +128,8 @@
       "description": "Jaqueta cinza versátil e estilosa. Modelagem moderna, tecido de qualidade e cor neutra fácil de combinar com qualquer look do dia a dia.",
       "category": "Roupas",
       "code": "ROU-001",
-      "image": "/products/roupas/jaqueta%20cinza.PNG",
-      "images": ["/products/roupas/jaqueta%20cinza.PNG"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/jaqueta_cinza_f8ygrq.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/jaqueta_cinza_f8ygrq.jpg?_s=public-apps"],
       "promo": false
     },
     {
@@ -144,8 +138,8 @@
       "description": "Conjunto com 12 peças versáteis para compor diversos looks. Ótima opção para renovar o guarda-roupa com estilo e economia.",
       "category": "Roupas",
       "code": "ROU-002",
-      "image": "/products/roupas/conjunto%20de%2012%20peças.jpg",
-      "images": ["/products/roupas/conjunto%20de%2012%20peças.jpg"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/conjunto_de_12_pe%C3%A7as_tlxiec.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/conjunto_de_12_pe%C3%A7as_tlxiec.jpg?_s=public-apps"],
       "promo": true
     },
     {
@@ -154,8 +148,8 @@
       "description": "Linha completa de acessórios para complementar seu visual. Peças selecionadas com o padrão de qualidade CAMARIM STORE.",
       "category": "Acessórios",
       "code": "ACE-001",
-      "image": "/products/acessorios/acessórios.jpg",
-      "images": ["/products/acessorios/acessórios.jpg"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/acess%C3%B3rios_qmikzr.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/acess%C3%B3rios_qmikzr.jpg?_s=public-apps"],
       "promo": false
     },
     {
@@ -164,8 +158,8 @@
       "description": "Kit presente cuidadosamente montado para surpreender quem você ama. Embalagem premium e seleção de produtos CAMARIM STORE.",
       "category": "Presentes",
       "code": "PRE-001",
-      "image": "/products/presentes/presentes.jpg",
-      "images": ["/products/presentes/presentes.jpg"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114599/presentes_csjdt3.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114599/presentes_csjdt3.jpg?_s=public-apps"],
       "promo": true
     }
   ]

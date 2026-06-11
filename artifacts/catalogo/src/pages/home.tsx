@@ -67,10 +67,10 @@ export default function Home() {
   };
 
   const buildWaLink = (p: Product) => {
-    const msg = config.whatsappMessage
-      .replace("{nome}", p.name)
-      .replace("{categoria}", p.category)
-      .replace("{imagem}", p.image);
+    let msg = config.whatsappMessage;
+    msg = msg.replace(/{nome}/g, p.name);
+    msg = msg.replace(/{categoria}/g, p.category);
+    msg = msg.replace(/{imagem}/g, p.image);
     return `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(msg)}`;
   };
 
