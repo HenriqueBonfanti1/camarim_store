@@ -1,193 +1,165 @@
 {
   "config": {
-    "storeName": "Minha Loja",
-    "storeTagline": "Produtos de qualidade para o seu dia a dia",
-    "whatsapp": "5511999999999",
-    "whatsappMessage": "Olá, tenho interesse neste produto.\n\nProduto: {nome}\nDescrição: {descricao}\nImagem: {imagem}\n\nPoderia me fornecer mais informações?"
+    "storeName": "CAMARIM STORE",
+    "storeTagline": "Beleza, cuidados e experiências que iluminam o seu dia",
+    "whatsapp": "5548996699358",
+    "whatsappMessage": "Olá, tenho interesse no produto {nome}\n\nNome: {nome}\nCategoria: {categoria}\nImagem: {imagem}"
   },
   "categories": [
-    {
-      "name": "Sabonetes",
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8'/><polyline points='16 6 12 2 8 6'/><line x1='12' y1='2' x2='12' y2='15'/></svg>"
-    },
-    {
-      "name": "Desodorantes",
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M9 3h6l1 7H8L9 3z'/><rect x='7' y='10' width='10' height='11' rx='1'/><line x1='12' y1='14' x2='12' y2='17'/></svg>"
-    },
     {
       "name": "Perfumes",
       "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M9 3 6.5 6h11L15 3H9z'/><rect x='5' y='6' width='14' height='14' rx='2'/><path d='M9 11s1 2 3 2 3-2 3-2'/></svg>"
     },
     {
-      "name": "Shampoos",
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M8 2h8l1 6H7L8 2z'/><rect x='6' y='8' width='12' height='13' rx='2'/><path d='M10 12h4'/></svg>"
+      "name": "Body Splash",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z'/></svg>"
     },
     {
-      "name": "Cremes",
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M7 2h10l2 5H5L7 2z'/><rect x='4' y='7' width='16' height='14' rx='2'/><path d='M9 12h6M12 9v6'/></svg>"
+      "name": "Camisas",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99 .84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z'/></svg>"
     },
     {
-      "name": "Promoções",
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z'/></svg>"
+      "name": "Roupas",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 7l3-3 4 1 2-2 2 2 4-1 3 3-2 4-2-1v10H7V10l-2 1z'/></svg>"
+    },
+    {
+      "name": "Acessórios",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='3'/><path d='M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24'/></svg>"
+    },
+    {
+      "name": "Presentes",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='20 12 20 22 4 22 4 12'/><rect x='2' y='7' width='20' height='5'/><line x1='12' y1='22' x2='12' y2='7'/><path d='M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z'/></svg>"
     }
   ],
   "products": [
     {
       "id": 1,
-      "name": "Sabonete Hidratante Lavanda",
-      "description": "Sabonete hidratante com extrato de lavanda para uso diário. Fórmula suave que respeita a pele, mantendo-a macia e perfumada por horas.",
-      "category": "Sabonetes",
-      "code": "SAB-001",
-      "image": "https://images.unsplash.com/photo-1607006344380-b6775a0824a7?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1607006344380-b6775a0824a7?w=600&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
-      "promo": false
-    },
-    {
-      "id": 2,
-      "name": "Sabonete Esfoliante Coco",
-      "description": "Sabonete esfoliante com partículas de coco natural. Remove células mortas e deixa a pele renovada, suave e com um delicioso aroma tropical.",
-      "category": "Sabonetes",
-      "code": "SAB-002",
-      "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
+      "name": "Body Splash",
+      "description": "Body splash refrescante com fragrância suave e marcante. Ideal para o dia a dia, hidrata levemente a pele e deixa um aroma delicado por horas.",
+      "category": "Body Splash",
+      "code": "BOD-001",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/body_splash_exeaqn.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/body_splash_exeaqn.jpg?_s=public-apps"],
       "promo": false
     },
     {
       "id": 3,
-      "name": "Desodorante Roll-on Sensitive",
-      "description": "Desodorante roll-on de longa duração com fórmula especial para peles sensíveis. Proteção eficaz por até 48 horas sem irritações.",
-      "category": "Desodorantes",
-      "code": "DES-001",
-      "image": "https://images.unsplash.com/photo-1585751119414-ef2636f8aede?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1585751119414-ef2636f8aede?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
-      "promo": false
-    },
-    {
-      "id": 4,
-      "name": "Desodorante Aerossol Fresh",
-      "description": "Desodorante aerossol com fragrância fresca e refrescante. Proteção antitranspirante de 24 horas com toque seco e agradável.",
-      "category": "Desodorantes",
-      "code": "DES-002",
-      "image": "https://images.unsplash.com/photo-1624454002302-36b824d7bd0a?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1624454002302-36b824d7bd0a?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
+      "name": "Lattafa Fakhar Black",
+      "description": "Lattafa Fakhar Black — perfume masculino intenso e sofisticado. Notas amadeiradas e especiarias que garantem presença marcante em qualquer ocasião.",
+      "category": "Perfumes",
+      "code": "PER-003",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/lattafa_fakhar_black_qs6qdo.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/lattafa_fakhar_black_qs6qdo.jpg?_s=public-apps"],
       "promo": true
     },
     {
-      "id": 5,
-      "name": "Perfume Floral Intenso",
-      "description": "Perfume feminino com notas florais de rosa, jasmim e baunilha. Uma fragrância sofisticada e duradoura para todas as ocasiões.",
+      "id": 4,
+      "name": "Lattafa Musamam",
+      "description": "Lattafa Musamam — fragrância unissex com notas orientais envolventes. Sofisticação em cada borrifada, perfeito para todas as estações.",
       "category": "Perfumes",
-      "code": "PER-001",
-      "image": "https://images.unsplash.com/photo-1541643600914-78b084683702?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1541643600914-78b084683702?w=600&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
+      "code": "PER-004",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114599/lattafa_musamam_xfus1c.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114599/lattafa_musamam_xfus1c.jpg?_s=public-apps"],
+      "promo": false
+    },
+    {
+      "id": 5,
+      "name": "Perfume Dublin",
+      "description": "Perfume Dublin — essência marcante com notas frescas e amadeiradas. Um clássico moderno para quem busca um aroma versátil e elegante.",
+      "category": "Perfumes",
+      "code": "PER-005",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114598/perfume_dublin_sgxbr7.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114598/perfume_dublin_sgxbr7.jpg?_s=public-apps"],
       "promo": false
     },
     {
       "id": 6,
-      "name": "Perfume Woody Masculino",
-      "description": "Perfume masculino com notas amadeiradas de sândalo, cedro e almíscar. Elegante e marcante, perfeito para o dia a dia e ocasiões especiais.",
-      "category": "Perfumes",
-      "code": "PER-002",
-      "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
-      "promo": true
+      "name": "Camisa Brasil Amarela",
+      "description": "Camisa da Seleção Brasileira amarela — edição canarinho. Tecido confortável, caimento perfeito e orgulho verde e amarelo em cada detalhe.",
+      "category": "Camisas",
+      "code": "CAM-001",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/camisa_brasil_amarela_lqmqro.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/camisa_brasil_amarela_lqmqro.jpg?_s=public-apps"],
+      "promo": false
     },
     {
       "id": 7,
-      "name": "Shampoo Nutrição Intensa",
-      "description": "Shampoo com proteínas de queratina e óleo de argan para cabelos danificados. Restaura o brilho, a maciez e reduz o frizz desde a primeira lavagem.",
-      "category": "Shampoos",
-      "code": "SHA-001",
-      "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
+      "name": "Camisa Brasil Azul",
+      "description": "Camisa da Seleção Brasileira azul — modelo reserva oficial. Conforto, estilo e a tradição do futebol brasileiro no seu guarda-roupa.",
+      "category": "Camisas",
+      "code": "CAM-002",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_azul_lmmduf.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_azul_lmmduf.jpg?_s=public-apps"],
       "promo": false
     },
     {
       "id": 8,
-      "name": "Shampoo Anticaspa Control",
-      "description": "Shampoo anticaspa com ativos antifúngicos de ação prolongada. Elimina a caspa e a coceira, proporcionando couro cabeludo saudável e cabelos limpos.",
-      "category": "Shampoos",
-      "code": "SHA-002",
-      "image": "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
+      "name": "Camisa Brasil Branca",
+      "description": "Camisa da Seleção Brasileira branca — edição clássica e clean. Perfeita para o dia a dia, mostra seu amor pelo hexa com muito estilo.",
+      "category": "Camisas",
+      "code": "CAM-003",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_branca_qhy9t1.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_branca_qhy9t1.jpg?_s=public-apps"],
       "promo": false
     },
     {
       "id": 9,
-      "name": "Creme Hidratante Corporal",
-      "description": "Creme hidratante corporal enriquecido com manteiga de karité e vitamina E. Absorção rápida, pele macia e hidratada por até 24 horas.",
-      "category": "Cremes",
-      "code": "CRE-001",
-      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
-      "promo": false
+      "name": "Camisa Brasil Preta",
+      "description": "Camisa da Seleção Brasileira preta — modelo alternativo. Visual moderno e ousado, ideal para compor looks com a vibe do futebol.",
+      "category": "Camisas",
+      "code": "CAM-004",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_preta_wv4h24.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_preta_wv4h24.jpg?_s=public-apps"],
+      "promo": true
     },
     {
       "id": 10,
-      "name": "Creme Anti-idade Facial",
-      "description": "Creme facial anti-idade com ácido hialurônico e retinol. Reduz linhas finas e rugas, promovendo uma pele mais firme, luminosa e jovem.",
-      "category": "Cremes",
-      "code": "CRE-002",
-      "image": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
+      "name": "Caixa com Camisas Brasil",
+      "description": "Caixa especial com camisas da Seleção Brasileira. Presente perfeito para o torcedor — várias cores em um só pacote com embalagem exclusiva.",
+      "category": "Camisas",
+      "code": "CAM-005",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/caixa_com_camisas_brasil_ylqtwe.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/caixa_com_camisas_brasil_ylqtwe.jpg?_s=public-apps"],
       "promo": true
     },
     {
       "id": 11,
-      "name": "Kit Hidratação Completa",
-      "description": "Kit promocional com sabonete hidratante + creme corporal + shampoo nutrição. Tudo que você precisa para uma rotina de beleza completa e eficaz.",
-      "category": "Promoções",
-      "code": "KIT-001",
-      "image": "https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
-      "promo": true
+      "name": "Jaqueta Cinza",
+      "description": "Jaqueta cinza versátil e estilosa. Modelagem moderna, tecido de qualidade e cor neutra fácil de combinar com qualquer look do dia a dia.",
+      "category": "Roupas",
+      "code": "ROU-001",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/jaqueta_cinza_f8ygrq.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/jaqueta_cinza_f8ygrq.jpg?_s=public-apps"],
+      "promo": false
     },
     {
       "id": 12,
-      "name": "Combo Perfume + Desodorante",
-      "description": "Combo exclusivo com perfume floral 50ml + desodorante roll-on combinando. Aroma marcante e proteção durante o dia todo com desconto especial.",
-      "category": "Promoções",
-      "code": "KIT-002",
-      "image": "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?w=600&h=600&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?w=600&h=600&fit=crop"
-      ],
-      "whatsapp": "5511999999999",
+      "name": "Conjunto de 12 Peças",
+      "description": "Conjunto com 12 peças versáteis para compor diversos looks. Ótima opção para renovar o guarda-roupa com estilo e economia.",
+      "category": "Roupas",
+      "code": "ROU-002",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/conjunto_de_12_pe%C3%A7as_tlxiec.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/conjunto_de_12_pe%C3%A7as_tlxiec.jpg?_s=public-apps"],
+      "promo": true
+    },
+    {
+      "id": 13,
+      "name": "Acessórios Diversos",
+      "description": "Linha completa de acessórios para complementar seu visual. Peças selecionadas com o padrão de qualidade CAMARIM STORE.",
+      "category": "Acessórios",
+      "code": "ACE-001",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/acess%C3%B3rios_qmikzr.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/acess%C3%B3rios_qmikzr.jpg?_s=public-apps"],
+      "promo": false
+    },
+    {
+      "id": 14,
+      "name": "Kit Presente Especial",
+      "description": "Kit presente cuidadosamente montado para surpreender quem você ama. Embalagem premium e seleção de produtos CAMARIM STORE.",
+      "category": "Presentes",
+      "code": "PRE-001",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114599/presentes_csjdt3.jpg?_s=public-apps",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114599/presentes_csjdt3.jpg?_s=public-apps"],
       "promo": true
     }
   ]
