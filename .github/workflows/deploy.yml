@@ -37,7 +37,6 @@ jobs:
 
       - name: Build catalogo
         run: pnpm --filter @workspace/catalogo run build:github
-        working-directory: ./artifacts/catalogo
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
