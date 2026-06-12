@@ -2,7 +2,10 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
+import { fileURLToPath } from "url";
 
+const __dirname = fileURLToPath(new URL(".", import.meta.url));
+const basePath = process.env.BASE_PATH || "/";
 const rawPort = process.env.PORT || "3000";
 const port = Number(rawPort);
 
@@ -18,7 +21,7 @@ export default defineConfig({
       "@": path.resolve(import.meta.dirname, "src"),
     },
   },
-  base: '/camarim-store/',
+  base: basePath,
   plugins: [
     runtimeErrorOverlay(),
     ...(process.env.NODE_ENV !== "production" &&
