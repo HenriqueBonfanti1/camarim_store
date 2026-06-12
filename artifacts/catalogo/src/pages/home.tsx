@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Search, X, MessageCircle, ChevronRight } from "lucide-react";
 import productsData from "../../data/products.json";
+import logo from "../../public/branding/logo.png";
 
 type Product = {
   id: number;
@@ -113,7 +114,7 @@ export default function Home() {
               <span /><span /><span />
             </button>
             <a className="brand" href="#top">
-              <img className="brand-logo" src="/branding/logo.PNG" alt={config.storeName} />
+              <img className="brand-logo" src={logo} alt={config.storeName} />
               <div className="brand-name">
                 <span className="brand-name__title">CAMARIM</span>
                 <span className="brand-name__sub">Store</span>
