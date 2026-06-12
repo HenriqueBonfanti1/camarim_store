@@ -18,7 +18,7 @@ export default defineConfig({
       "@": path.resolve(import.meta.dirname, "src"),
     },
   },
-  base: '/camarim_store/',
+  base: '/camarim-store/',
   plugins: [
     runtimeErrorOverlay(),
     ...(process.env.NODE_ENV !== "production" &&
