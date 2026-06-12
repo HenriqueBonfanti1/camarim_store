@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
@@ -17,7 +18,7 @@ export default defineConfig({
       "@": path.resolve(import.meta.dirname, "src"),
     },
   },
-  base: `/${repoName}/`,
+  base: '/camarim_store/',
   plugins: [
     runtimeErrorOverlay(),
     ...(process.env.NODE_ENV !== "production" &&
