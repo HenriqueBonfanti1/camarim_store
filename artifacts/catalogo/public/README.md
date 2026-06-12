@@ -21,7 +21,7 @@ public/
 │   ├── roupas/              #   2 imagens (jaqueta cinza, conjunto de 12 peças)
 │   ├── acessorios/          #   1 imagem  (acessórios.jpg)
 │   ├── presentes/           #   1 imagem  (presentes.jpg)
-│   ├── marketing/           #   9 arquivos (logo.PNG, banners, "em breve", etc — não são produtos)
+│   ├── marketing/           #   9 arquivos (logo.png, banners, "em breve", etc — não são produtos)
 │   └── todos/               #   Cópia de tudo (parece ser backup — pode remover)
 │
 └── assets/                  # 🎨 Elementos visuais de estilização
@@ -81,7 +81,7 @@ background-image: url("/products/perfumes/body%20splash.PNG");
 
 ## 🧹 Próximos passos sugeridos
 
-1. **Mover** `marketing/logo.PNG` → `branding/logo.PNG`
+1. **Mover** `marketing/logo.png` → `branding/logo.png`
 2. **Mover** banners de `marketing/` → `assets/backgrounds/`
 3. **Deletar** `products/todos/` (é cópia redundante)
 4. **Renomear** arquivos para kebab-case sem acento (opcional): `camisa-brasil-amarela.JPG`, `jaqueta-cinza.PNG`
