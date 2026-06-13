@@ -113,7 +113,7 @@ export default function Home() {
               <span /><span /><span />
             </button>
             <a className="brand" href="#top">
-              <img className="brand-logo" src="c:/shiftx/camarim_store/artifacts/catalogo/data/products/logo.jpg" alt={config.storeName} /> 
+              <img className="brand-logo" src="https://res.cloudinary.com/dxnmjt7zn/image/upload/v1781114599/logo_t6gik4.png" alt={config.storeName} /> 
               <div className="brand-name">
                 <span className="brand-name__title">CAMARIM</span>
                 <span className="brand-name__sub">Store</span>
