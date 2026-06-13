@@ -113,7 +113,7 @@ export default function Home() {
               <span /><span /><span />
             </button>
             <a className="brand" href="#top">
-              <img className="brand-logo" src="/branding/logo.jpg" alt={config.storeName} />
+              <img className="brand-logo" src="c:/shiftx/camarim_store/artifacts/catalogo/data/products/logo.PNG" alt={config.storeName} /> 
               <div className="brand-name">
                 <span className="brand-name__title">CAMARIM</span>
                 <span className="brand-name__sub">Store</span>
