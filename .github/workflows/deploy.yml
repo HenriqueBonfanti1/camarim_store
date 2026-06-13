@@ -37,8 +37,6 @@ jobs:
 
       - name: Build catalogo
         run: pnpm --filter @workspace/catalogo run build:github
-        env:
-          BASE_PATH: /camarim-store
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
