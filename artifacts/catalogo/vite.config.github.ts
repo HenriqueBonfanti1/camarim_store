@@ -8,7 +8,7 @@ import { fileURLToPath } from "url";
 const repoName = fileURLToPath(new URL(".", import.meta.url));
 
 export default defineConfig({
-  base: "/camarim-store/",
+  base: "/camarim_store/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
