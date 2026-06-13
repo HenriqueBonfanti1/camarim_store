@@ -81,7 +81,7 @@ background-image: url("/products/perfumes/body%20splash.PNG");
 
 ## 🧹 Próximos passos sugeridos
 
-1. **Mover** `marketing/logo.png` → `branding/logo.png`
+1. **Mover** `marketing/logo.png` → `branding/logo.jpg`
 2. **Mover** banners de `marketing/` → `assets/backgrounds/`
 3. **Deletar** `products/todos/` (é cópia redundante)
 4. **Renomear** arquivos para kebab-case sem acento (opcional): `camisa-brasil-amarela.JPG`, `jaqueta-cinza.PNG`
