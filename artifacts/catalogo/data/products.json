@@ -15,10 +15,6 @@
       "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z'/></svg>"
     },
     {
-      "name": "Camisas",
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99 .84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z'/></svg>"
-    },
-    {
       "name": "Roupas",
       "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 7l3-3 4 1 2-2 2 2 4-1 3 3-2 4-2-1v10H7V10l-2 1z'/></svg>"
     },
@@ -50,7 +46,7 @@
       "code": "PER-003",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/lattafa_fakhar_black_qs6qdo.jpg?_s=public-apps",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114597/lattafa_fakhar_black_qs6qdo.jpg?_s=public-apps"],
-      "promo": true
+      "promo": false
     },
     {
       "id": 4,
@@ -76,7 +72,7 @@
       "id": 6,
       "name": "Camisa Brasil Amarela",
       "description": "Camisa da Seleção Brasileira amarela — edição canarinho. Tecido confortável, caimento perfeito e orgulho verde e amarelo em cada detalhe.",
-      "category": "Camisas",
+      "category": "Roupas",
       "code": "CAM-001",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/camisa_brasil_amarela_lqmqro.jpg?_s=public-apps",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/camisa_brasil_amarela_lqmqro.jpg?_s=public-apps"],
@@ -86,7 +82,7 @@
       "id": 7,
       "name": "Camisa Brasil Azul",
       "description": "Camisa da Seleção Brasileira azul — modelo reserva oficial. Conforto, estilo e a tradição do futebol brasileiro no seu guarda-roupa.",
-      "category": "Camisas",
+      "category": "Roupas",
       "code": "CAM-002",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_azul_lmmduf.jpg?_s=public-apps",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_azul_lmmduf.jpg?_s=public-apps"],
@@ -96,7 +92,7 @@
       "id": 8,
       "name": "Camisa Brasil Branca",
       "description": "Camisa da Seleção Brasileira branca — edição clássica e clean. Perfeita para o dia a dia, mostra seu amor pelo hexa com muito estilo.",
-      "category": "Camisas",
+      "category": "Roupas",
       "code": "CAM-003",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_branca_qhy9t1.jpg?_s=public-apps",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_branca_qhy9t1.jpg?_s=public-apps"],
@@ -106,21 +102,11 @@
       "id": 9,
       "name": "Camisa Brasil Preta",
       "description": "Camisa da Seleção Brasileira preta — modelo alternativo. Visual moderno e ousado, ideal para compor looks com a vibe do futebol.",
-      "category": "Camisas",
+      "category": "Roupas",
       "code": "CAM-004",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_preta_wv4h24.jpg?_s=public-apps",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/camisa_brasil_preta_wv4h24.jpg?_s=public-apps"],
-      "promo": true
-    },
-    {
-      "id": 10,
-      "name": "Caixa com Camisas Brasil",
-      "description": "Caixa especial com camisas da Seleção Brasileira. Presente perfeito para o torcedor — várias cores em um só pacote com embalagem exclusiva.",
-      "category": "Camisas",
-      "code": "CAM-005",
-      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/caixa_com_camisas_brasil_ylqtwe.jpg?_s=public-apps",
-      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114600/caixa_com_camisas_brasil_ylqtwe.jpg?_s=public-apps"],
-      "promo": true
+      "promo": false
     },
     {
       "id": 11,
@@ -136,11 +122,11 @@
       "id": 12,
       "name": "Conjunto de 12 Peças",
       "description": "Conjunto com 12 peças versáteis para compor diversos looks. Ótima opção para renovar o guarda-roupa com estilo e economia.",
-      "category": "Roupas",
+      "category": "Acessórios",
       "code": "ROU-002",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/conjunto_de_12_pe%C3%A7as_tlxiec.jpg?_s=public-apps",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/fl_preserve_transparency/v1781114601/conjunto_de_12_pe%C3%A7as_tlxiec.jpg?_s=public-apps"],
-      "promo": true
+      "promo": false
     },
     {
       "id": 13,
